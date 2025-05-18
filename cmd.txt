@@ -1,0 +1,179 @@
+cd rag-infra/
+cdk init app --language=typescript
+npm install -g aws-cdk
+aws sso login
+aws sts get-caller-identity
+cdk bootstrap
+cdk bootstrap
+cdk bootstrap
+cdk bootstrap
+cdk bootstrap
+cdk bootstrap
+npm install aws-cdk-lib
+npm install constructs\
+\
+
+npm install --save-dev typescript ts-node\
+\
+
+npx cdk bootstrap\
+
+npm install --save-dev typescript ts-node @types/node
+npx cdk bootstrap
+npm install
+cd ..
+cd rag-cdk-infra/
+cdk bootstrap
+cdk init app --language=typescript
+cdk init app --language=typescript
+cd ..
+cd image
+ls -a
+docker run --platform linux/amd64 --rm -it \\
+    -p 8000:8000 \\
+    --entrypoint python \\
+    --env-file .env \\
+    aws_rag_app src/app_api_handler.py
+docker build --platform linux/amd64 -t aws_rag_app .
+docker run --platform linux/amd64 --rm -it \\
+    -p 8000:8000 \\
+    --entrypoint python \\
+    --env-file .env \\
+    aws_rag_app src/app_api_handler.py
+docker build --platform linux/amd64 -t aws_rag_app .
+docker run --platform linux/amd64 --rm -it \\
+    --env-file .env \\
+    --entrypoint python \\
+    aws_rag_app src/test_aws_credentials.py
+docker build --platform linux/amd64 -t aws_rag_app .
+docker build --platform linux/amd64 -t aws_rag_app .
+docker run --platform linux/amd64 --rm -it \\
+    --env-file .env \\
+    --entrypoint python \\
+    aws_rag_app src/test_aws_credentials.py
+ls
+cd src
+python test_aws_credentials.py
+python test_aws_credentials.py
+docker build --platform linux/amd64 -t aws_rag_app .
+cd ..
+docker build --platform linux/amd64 -t aws_rag_app .
+docker run --platform linux/amd64 --rm -it \\
+    --env-file .env \\
+    --entrypoint python \\
+    aws_rag_app src/test_aws_credentials.py
+docker build --platform linux/amd64 -t aws_rag_app .
+docker run --platform linux/amd64 --rm -it \\
+    --env-file .env \\
+    --entrypoint python \\
+    aws_rag_app src/test_aws_credentials.py
+python src/test_aws_credentials.py
+docker build --platform linux/amd64 -t aws_rag_app .
+docker run --platform linux/amd64 --rm -it \\
+    --env-file .env \\
+    --entrypoint python \\
+    aws_rag_app src/test_aws_credentials.py
+docker run --platform linux/amd64 --rm -it \\
+    -p 8000:8000 \\
+    --entrypoint python \\
+    --env-file .env \\
+    aws_rag_app src/app_api_handler.py
+docker build --platform linux/amd64 -t aws_rag_app .
+docker run --platform linux/amd64 --rm -it \\
+    -p 8000:8000 \\
+    --entrypoint python \\
+    --env-file .env \\
+    aws_rag_app src/app_api_handler.py
+cd src/
+python rag_app/query_rag.py
+cd ..
+python src/rag_app/query_rag.py
+docker build --platform linux/amd64 -t aws_rag_app .
+docker run --platform linux/amd64 --rm -it \\
+    --env-file .env \\
+    --entrypoint python \\
+    aws_rag_app src/test_aws_credentials.py
+docker run --platform linux/amd64 --rm -it \\
+    -p 8000:8000 \\
+    --entrypoint python \\
+    --env-file .env \\
+    aws_rag_app src/app_api_handler.py
+docker build --platform linux/amd64 -t aws_rag_app .
+docker run --platform linux/amd64 --rm -it \\
+    -p 8000:8000 \\
+    --entrypoint python \\
+    --env-file .env \\
+    aws_rag_app src/app_api_handler.py
+docker build --platform linux/amd64 -t aws_rag_app .
+docker run --platform linux/amd64 --rm -it \\
+    -p 8000:8000 \\
+    --entrypoint python \\
+    --env-file .env \\
+    aws_rag_app src/app_api_handler.py
+cd ..
+cd rag-cdk-infra/
+cdk deploy
+aws cloudformation describe-stack-events --stack-name RagCdkInfraStack
+aws logs describe-log-groups
+aws logs describe-log-streams --log-group-name /aws/lambda/RagCdkInfraStack-ApiFunc9527395A-Zc0xtmCbxvtv
+aws logs get-log-events --log-group-name /aws/lambda/RagCdkInfraStack-ApiFunc9527395A-Zc0xtmCbxvtv --log-stream-name 2025/05/17/[$LATEST]1065024f1c7a4b7cb3a9fc44b80ab361
+aws logs get-log-events --log-group-name /aws/lambda/RagCdkInfraStack-ApiFunc9527395A-Zc0xtmCbxvtv --log-stream-name '2025/05/17/[$LATEST]1065024f1c7a4b7cb3a9fc44b80ab361'
+docker pull 685057748560.dkr.ecr.us-east-1.amazonaws.com/cdk-hnb659fds-container-assets-685057748560-us-east-1
+docker login 685057748560.dkr.ecr.us-east-1.amazonaws.com
+aws ecr get-login-password --region region | docker login --username AWS --password-stdin 685057748560.dkr.ecr.us-east-1.amazonaws.com
+docker --help
+: 1747460127:0;docker login -u AWS -p $(aws ecr get-login-password --region us-east-1) 685057748560.dkr.ecr.us-east-1.amazonaws.com
+: 1747460155:0;docker pull 685057748560.dkr.ecr.us-east-1.amazonaws.com/cdk-hnb659fds-container-assets-685057748560-us-east-1:latest
+: 1747460348:0;docker pull 685057748560.dkr.ecr.us-east-1.amazonaws.com/cdk-hnb659fds-container-assets-685057748560-us-east-1:d99fcf7dbf043f94afebdafd34c3e467386d0ec2a9ef7920bce1a7fb2132b194
+: 1747460369:0;docker images
+: 1747460455:0;docker run 685057748560.dkr.ecr.us-east-1.amazonaws.com/cdk-hnb659fds-container-assets-685057748560-us-east-1
+: 1747460584:0;docker run --platform linux/amd64 --rm -it \\
+    -p 8000:8000 \\
+    --entrypoint python \\
+    --env-file .env \\
+    685057748560.dkr.ecr.us-east-1.amazonaws.com/cdk-hnb659fds-container-assets-685057748560-us-east-1 src/app_api_handler.py
+: 1747460601:0;cd ..
+: 1747460605:0;cd image
+: 1747460609:0;docker run --platform linux/amd64 --rm -it \\
+    -p 8000:8000 \\
+    --entrypoint python \\
+    --env-file .env \\
+    685057748560.dkr.ecr.us-east-1.amazonaws.com/cdk-hnb659fds-container-assets-685057748560-us-east-1 src/app_api_handler.py
+: 1747460749:0;docker run --platform linux/amd64 --rm -it \\
+    -p 8000:8000 \\
+    --entrypoint python \\
+    --env-file .env \\
+    cdkasset-d99fcf7dbf043f94afebdafd34c3e467386d0ec2a9ef7920bce1a7fb2132b194 src/app_api_handler.py
+: 1747461107:0;cdk deploy
+: 1747461229:0;cdk destroy RagCdkInfraStack
+: 1747461248:0;npx cdk destroy RagCdkInfraStack
+: 1747461319:0;npx cdk destroy RagCdkInfraStack --app "npx ts-node --prefer-ts-exts bin/rag-cdk-infra.ts"
+: 1747461348:0;cd ..
+: 1747461351:0;cd rag-cdk-infra/
+: 1747461358:0;cdk destroy RagCdkInfraStack
+: 1747461600:0;aws cloudformation list-stacks\
+
+: 1747461824:0;cdk deploy
+: 1747462353:0;cd ..
+: 1747462375:0;pip install aws-cdk-lib constructs
+: 1747462419:0;mkdir python-rag-cdk-infra
+: 1747462423:0;cd python-rag-cdk-infra
+: 1747462436:0;cdk init app --language python
+: 1747462654:0;conda deactivate
+: 1747462663:0;source .venv/bin/activate
+: 1747462670:0;pip install -r requirements.txt
+: 1747463210:0;cd ..
+: 1747463216:0;cd rag-cdk-infra/
+: 1747463227:0;cdk destroy RagCdkInfraStack
+: 1747463466:0;cd ..
+: 1747463470:0;cd python-rag-cdk-infra
+: 1747463484:0;cdk deploy
+: 1747463657:0;cdk deploy
+: 1747464184:0;aws ecr describe-repositories\
+
+: 1747465915:0;history
+: 1747473115:0;cd..
+: 1747473118:0;cd ..
+: 1747473121:0;cd ..
+: 1747473124:0;clear
+: 1747473307:0;cdk destroy PythonRagCdkInfraStack

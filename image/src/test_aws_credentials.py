@@ -3,6 +3,9 @@ import os
 import logging
 import json
 from botocore.exceptions import ClientError
+from dotenv import load_dotenv
+
+load_dotenv(verbose=True)
 
 
 logging.basicConfig(level=logging.INFO)
